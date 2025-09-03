@@ -1,4 +1,34 @@
-Hello!\
-For the Excel project, we are looking at a bike sales dataset. I created pivot tables and charts, as well as a dashboard to visualise the data.
+# Bike Sales Analysis in Excel
+## Project Overview
+This project cleans raw customer and sales data in Excel and builds interactive pivot tables and charts to analyse bike purchases by age group, income, and commute distance.
 
-For the Power BI project, we are looking at a data industry survey dataset. I cleaned the data using Power Query and created a dashboard to visualise the data.
+## Data Cleaning
+### 1. Remove duplicates
+Created a new sheet to preserve original dataset.
+
+Used Excel’s Data > Remove Duplicates to de-duplicate the source table.
+
+### 2. Find and replace
+
+Standardised inconsistent text fields using Find & Replace.
+
+### 3. Currency formatting
+
+Applied appropriate currency formatting to income field.
+
+### 4. Binning Age with IF function
+
+Created age-band fields (<30, 31–54, 55+) using IF function, reducing noise from too many unique ages and improve interpretability in charts.
+
+## Analysis & Reporting
+### 1. PivotTables for summaries
+
+Built PivotTables to summarise purchase decisions by average income, gender, age brackets and commute distance.
+
+### 2. Charts for visualization
+
+Created PivotCharts to visualise distribution of purchase decisions.
+
+### 3. Interactive dashboard with slicers
+
+Added synchronised slicers to enable one-click filtering and faster exploration.
