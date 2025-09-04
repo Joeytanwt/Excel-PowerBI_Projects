@@ -4,7 +4,7 @@ This project cleans raw customer and sales data in Excel and builds interactive 
 
 ## Data Cleaning
 ### 1. Remove duplicates
-Created a new sheet to preserve original dataset.
+Created a copy of data into a new sheet to preserve original dataset.
 
 Used Excel’s Data > Remove Duplicates to de-duplicate the source table.
 
