@@ -18,7 +18,7 @@ Applied appropriate currency formatting to income field.
 
 ### 4. Binning Age with IF function
 
-Created age-band fields (<30, 31–54, 55+) using IF function, reducing noise from too many unique ages and improve interpretability in charts.
+Created age bins using ```=IF('Age'>54,"Age (55+)",IF('Age'>=31,"Age (31-54)",IF('Age'<31,"Age (<30)","Invalid")))``` function, reducing noise from too many unique ages and improving interpretability in charts.
 
 ## Analysis & Reporting
 ### 1. PivotTables for summaries
