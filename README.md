@@ -1,4 +1,4 @@
-# Bike Sales Analysis in Excel with Pivot Tables and Charts
+# Data Analysis in Excel with Pivot Tables and Charts
 ## Project Overview
 This project cleans raw customer and sales data in Excel and builds interactive pivot tables and charts to analyse bike purchases by age group, income, and commute distance.
 
